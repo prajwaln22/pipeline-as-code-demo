@@ -1,6 +1,6 @@
 #!groovy
 
-stage 'Dev'
+stage 'Dev ' 
 node ('docker-cloud') {
     checkout scm
     mvn 'clean package'
